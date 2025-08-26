@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Coffee, Leaf, Store, FlaskConical, Music, MapPin, Users, BarChart3, Mail, ArrowRight, Printer, ShieldCheck, ShoppingBag, HeartHandshake, CalendarDays } from "lucide-react";
 import {
@@ -290,6 +290,7 @@ export default function LastHousePitch() {
                 </LineChart>
               </ResponsiveContainer>
             </div>
+            <p className="mt-2 text-xs text-neutral-500">{nowLabel}</p>
           </Card>
 
           <Card>
@@ -340,7 +341,7 @@ export default function LastHousePitch() {
               </tbody>
             </table>
           </div>
-          <p className="mt-3 text-xs text-neutral-500">Tune these to your current P&L. The charted revenue is illustrative and should be replaced with your latests.</p>
+          <p className="mt-3 text-xs text-neutral-500">Tune these to your current P&L. The charted revenue is illustrative and should be replaced with your latest figures.</p>
         </Card>
       </Section>
 
